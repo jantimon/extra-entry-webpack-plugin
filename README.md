@@ -2,8 +2,6 @@ Extra Entry Webpack Plugin
 ========================================
 [![npm version](https://badge.fury.io/js/extra-entry-webpack-plugin.svg)](http://badge.fury.io/js/extra-entry-webpack-plugin) [![Dependency Status](https://david-dm.org/jantimon/extra-entry-webpack-plugin.svg)](https://david-dm.org/jantimon/extra-entry-webpack-plugin) [![Build status](https://travis-ci.org/jantimon/extra-entry-webpack-plugin.svg)](https://travis-ci.org/jantimon/extra-entry-webpack-plugin) [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
 
-Allows to use the [extra-entry](https://github.com/haydenbleasel/extra-entry) generator with webpack
-
 Installation
 ------------
 You must be running webpack on node 0.12.x or higher
