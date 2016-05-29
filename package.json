@@ -1,0 +1,48 @@
+{
+  "name": "extra-entry-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Allows you to specifiy an entry together with the output name",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "semistandard",
+    "prepublish": "npm run test",
+    "posttest": "npm run lint",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jantimon/extra-entry-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "entry"
+  ],
+  "author": "Jan Nicklas <j.nicklas@me.com> (https://github.com/jantimon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jantimon/extra-entry-webpack-plugin/issues"
+  },
+  "semistandard": {
+    "parser": "babel-eslint"
+  },
+  "homepage": "https://github.com/jantimon/extra-entry-webpack-plugin",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "babel-eslint": "^6.0.2",
+    "denodeify": "^1.2.1",
+    "dir-compare": "^1.0.1",
+    "express": "^4.13.4",
+    "memory-fs": "^0.3.0",
+    "rimraf": "^2.5.2",
+    "semistandard": "^7.0.5",
+    "webpack": "^1.13.0",
+    "webpack-dev-middleware": "^1.6.1"
+  },
+  "dependencies": {
+    "webpack": "^1.13.0"
+  }
+}
