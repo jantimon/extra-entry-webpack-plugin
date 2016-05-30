@@ -28,9 +28,13 @@ ExtraEntryWebpackPlugin.prototype.apply = function (compiler) {
 
   // Output configuration of the injected entry
   compiler.plugin('compilation', function (compilation) {
+    var mainFile = compilation.outputOptions.filename || 'bundle.js';
     compilation
         .mainTemplate
         .plugin('asset-path', function (name, data) {
+          if (name !== mainFile) {
+            return name;
+          }
           return (data.chunk && data.chunk.name === entryName) ? outputName : name;
         });
   });
