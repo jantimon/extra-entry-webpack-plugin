@@ -36,7 +36,7 @@ plugins: [
   new ExtraEntryWebpackPlugin({
     entry: 'entry-file.js',
     entryName: 'An additional entry',
-    context: __dirnmae,
+    context: __dirname,
     outputName: 'output.js'
   })
 ]
