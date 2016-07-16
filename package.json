@@ -1,6 +1,6 @@
 {
   "name": "extra-entry-webpack-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Allows you to specifiy an entry together with the output name",
   "main": "index.js",
   "files": [
